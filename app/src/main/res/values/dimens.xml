@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="key_line">16dp</dimen>
+    <dimen name="half_key_line">8dp</dimen>
+    <dimen name="small_margin">4dp</dimen>
+    <dimen name="item_width">25sp</dimen>
+</resources>

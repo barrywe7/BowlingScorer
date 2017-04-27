@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BowlingScorer</string>
+    <string name="new_game">New</string>
+    <string name="delete">Delete</string>
+    <string name="dialog_title_new_game">New game</string>
+    <string name="dialog_message_new_game">Are you sure? This will clear all existing scores</string>
+</resources>

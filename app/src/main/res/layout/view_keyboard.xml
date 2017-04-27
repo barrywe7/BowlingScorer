@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="@dimen/key_line">
+
+    <LinearLayout
+        style="?buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/one"
+            style="?buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="ONE"
+            android:text="@string/one"
+            android:textColor="?android:textColorPrimary"/>
+
+        <Button
+            android:id="@+id/two"
+            style="?buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="TWO"
+            android:text="@string/two"
+            android:textColor="?android:textColorPrimary"/>
+
+        <Button
+            android:id="@+id/three"
+            style="?buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="THREE"
+            android:text="@string/three"
+            android:textColor="?android:textColorPrimary"/>
+
+        <ImageButton
+            android:id="@+id/delete"
+            style="?buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/delete"
+            android:onClick="onClick"
+            app:srcCompat="@drawable/ic_backspace_black_24dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="?buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/four"
+            style="?buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="FOUR"
+            android:text="@string/four"
+            android:textColor="?android:textColorPrimary"/>
+
+        <Button
+            android:id="@+id/five"
+            style="?buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="FIVE"
+            android:text="@string/five"
+            android:textColor="?android:textColorPrimary"/>
+
+        <Button
+            android:id="@+id/six"
+            style="?buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="SIX"
+            android:text="@string/six"
+            android:textColor="?android:textColorPrimary"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="?buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/seven"
+            style="?buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="SEVEN"
+            android:text="@string/seven"
+            android:textColor="?android:textColorPrimary"/>
+
+        <Button
+            android:id="@+id/eight"
+            style="?buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="EIGHT"
+            android:text="@string/eight"
+            android:textColor="?android:textColorPrimary"/>
+
+        <Button
+            android:id="@+id/nine"
+            style="?buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="NINE"
+            android:text="@string/nine"
+            android:textColor="?android:textColorPrimary"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="?buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:textColor="?android:textColorPrimary">
+
+        <Button
+            android:id="@+id/spare"
+            style="?buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="SPARE"
+            android:text="@string/spare"
+            android:textColor="?android:textColorPrimary"/>
+
+        <Button
+            android:id="@+id/zero"
+            style="?buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="ZERO"
+            android:text="@string/zero"
+            android:textColor="?android:textColorPrimary"/>
+
+        <Button
+            android:id="@+id/strike"
+            style="?buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="STRIKE"
+            android:text="@string/strike"
+            android:textColor="?android:textColorPrimary"/>
+
+        <Button
+            android:id="@+id/new_game"
+            style="?buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/new_game"/>
+
+    </LinearLayout>
+
+</LinearLayout>
